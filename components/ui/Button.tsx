@@ -18,9 +18,9 @@ export const Button: React.FC<ButtonProps> = ({
   const baseStyles = "relative inline-flex items-center justify-center gap-2 px-8 py-3.5 text-sm font-semibold tracking-wide transition-all duration-300 rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-brand-black disabled:opacity-70 disabled:cursor-not-allowed";
   
   const variants = {
-    primary: "bg-brand-blue text-white shadow-[0_0_20px_rgba(0,175,255,0.4)] hover:shadow-[0_0_35px_rgba(0,175,255,0.6)] hover:scale-105 active:scale-95 border border-brand-blue/50",
+    primary: "bg-brand-electric text-white shadow-[0_0_20px_rgba(0,108,255,0.4)] hover:shadow-[0_0_35px_rgba(0,108,255,0.6)] hover:scale-105 active:scale-95 border border-brand-electric/50",
     secondary: "bg-transparent text-white border border-white/20 hover:bg-white/10 hover:border-white/40 active:scale-95",
-    glass: "glass-panel text-white hover:bg-white/10 border-white/20 hover:border-brand-blue/50 hover:shadow-[0_0_20px_rgba(0,175,255,0.2)] active:scale-95"
+    glass: "glass-panel text-white hover:bg-white/10 border-white/20 hover:border-brand-electric/50 hover:shadow-[0_0_20px_rgba(0,108,255,0.2)] active:scale-95"
   };
 
   return (

@@ -25,14 +25,14 @@ export const DownloadSection: React.FC = () => {
     <>
       <Section id="download" className="py-24 relative">
         <div className="max-w-4xl mx-auto px-6">
-          <GlassCard glowEffect className="text-center p-8 md:p-12 border-brand-blue/30 relative overflow-hidden group">
+          <GlassCard glowEffect className="text-center p-8 md:p-12 border-brand-electric/30 relative overflow-hidden group">
             
             {/* Decorative Glows inside card */}
-            <div className="absolute -top-20 -left-20 w-60 h-60 bg-brand-blue/20 rounded-full blur-[60px] group-hover:bg-brand-blue/30 transition-all duration-700"></div>
+            <div className="absolute -top-20 -left-20 w-60 h-60 bg-brand-electric/20 rounded-full blur-[60px] group-hover:bg-brand-electric/30 transition-all duration-700"></div>
             <div className="absolute -bottom-20 -right-20 w-60 h-60 bg-purple-500/20 rounded-full blur-[60px] group-hover:bg-purple-500/30 transition-all duration-700"></div>
 
             <div className="relative z-10">
-              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">Download the Latest SMSChat APK</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">Download the Latest S. Chat APK</h2>
               
               {/* Version Info Grid */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
@@ -43,7 +43,7 @@ export const DownloadSection: React.FC = () => {
                   { label: 'Size', value: latestVersion.size, icon: <FileBox size={16} /> },
                 ].map((item) => (
                   <div key={item.label} className="bg-white/5 border border-white/10 rounded-2xl p-4 backdrop-blur-sm flex flex-col items-center gap-2 hover:bg-white/10 transition-colors">
-                    <div className="text-brand-blue">{item.icon}</div>
+                    <div className="text-brand-electric">{item.icon}</div>
                     <div className="text-xs text-white/50 uppercase tracking-wider">{item.label}</div>
                     <div className="font-semibold text-white">{item.value}</div>
                   </div>
@@ -55,14 +55,14 @@ export const DownloadSection: React.FC = () => {
                 <Button 
                   variant="primary" 
                   isLoading={isModalOpen}
-                  className="!rounded-full !px-12 !py-5 text-lg shadow-[0_0_40px_rgba(0,175,255,0.3)] hover:shadow-[0_0_60px_rgba(0,175,255,0.5)]"
+                  className="!rounded-full !px-12 !py-5 text-lg shadow-[0_0_40px_rgba(0,108,255,0.3)] hover:shadow-[0_0_60px_rgba(0,108,255,0.5)]"
                   onClick={() => setIsModalOpen(true)}
                 >
                   <Download className="mr-2" /> Download APK
                 </Button>
                 
-                <a href="#" className="flex items-center text-sm text-white/60 hover:text-brand-blue transition-colors group/link">
-                  View Full Changelog 
+                <a href="https://github.com/Abdellatif148" target="_blank" rel="noopener noreferrer" className="flex items-center text-sm text-white/60 hover:text-brand-electric transition-colors group/link">
+                  View on GitHub 
                   <ArrowRight size={14} className="ml-1 group-hover/link:translate-x-1 transition-transform" />
                 </a>
               </div>
@@ -111,7 +111,7 @@ export const DownloadSection: React.FC = () => {
               
               <h3 className="text-2xl font-bold text-white mb-2">Ready to Install?</h3>
               <p className="text-white/60 mb-8 leading-relaxed">
-                You are about to download <span className="text-white font-medium">SMSChat v{latestVersion.version}</span>. 
+                You are about to download <span className="text-white font-medium">S. Chat v{latestVersion.version}</span>. 
                 <br/>This file is safe and verified.
               </p>
 

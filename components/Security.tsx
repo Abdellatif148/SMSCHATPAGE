@@ -12,7 +12,7 @@ export const Security: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-16">
           
           <div className="md:w-1/2">
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-blue/30 bg-brand-blue/10 text-brand-blue text-sm font-semibold mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-electric/30 bg-brand-electric/10 text-brand-electric text-sm font-semibold mb-6">
               <Shield size={16} />
               <span>Privacy First Architecture</span>
             </div>
@@ -21,12 +21,12 @@ export const Security: React.FC = () => {
               Your Rules.
             </h2>
             <p className="text-lg text-white/70 mb-8 leading-relaxed">
-              We believe communication should be private by default. SMSChat stores messages locally on your device using military-grade AES encryption. Cloud features are strictly opt-in.
+              Communication should be private by default. S. Chat stores messages locally with AES-256 encryption. Cloud sync is completely optional and always encrypted.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { icon: <Lock className="text-brand-blue" />, title: "AES-256 Encryption", desc: "Local database encryption." },
+                { icon: <Lock className="text-brand-electric" />, title: "AES-256 Encryption", desc: "Local database encryption." },
                 { icon: <Server className="text-green-400" />, title: "Local First", desc: "Works perfectly offline." },
                 { icon: <Shield className="text-purple-400" />, title: "Optional Backup", desc: "You control the cloud." },
                 { icon: <Trash2 className="text-red-400" />, title: "Total Erasure", desc: "Delete everything anytime." },
@@ -50,8 +50,8 @@ export const Security: React.FC = () => {
                <div className="absolute inset-0 border border-brand-blue/20 rounded-full animate-[spin_10s_linear_infinite]"></div>
                <div className="absolute inset-4 border border-dashed border-white/10 rounded-full animate-[spin_15s_linear_infinite_reverse]"></div>
                <div className="absolute inset-0 flex items-center justify-center">
-                 <div className="w-32 h-32 rounded-3xl bg-brand-blue/10 backdrop-blur-xl border border-brand-blue/40 flex items-center justify-center shadow-[0_0_50px_rgba(0,175,255,0.2)]">
-                   <Lock size={48} className="text-brand-blue" />
+                 <div className="w-32 h-32 rounded-3xl bg-brand-electric/10 backdrop-blur-xl border border-brand-electric/40 flex items-center justify-center shadow-[0_0_50px_rgba(0,108,255,0.2)]">
+                   <Lock size={48} className="text-brand-electric" />
                  </div>
                </div>
                

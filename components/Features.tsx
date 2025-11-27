@@ -7,20 +7,20 @@ import { Feature } from '../types';
 const features: Feature[] = [
   {
     id: 'core',
-    title: 'Core SMS',
-    description: 'A fast, reliable, and minimal SMS system designed to replace your default app.',
-    icon: <MessageSquare className="w-8 h-8 text-brand-blue" />
+    title: 'Modern SMS',
+    description: 'Fast, reliable messaging with WhatsApp-level polish. No account needed.',
+    icon: <MessageSquare className="w-8 h-8 text-brand-electric" />
   },
   {
     id: 'smart',
-    title: 'Smart Messaging',
-    description: 'Swipe replies, media viewer, voice notes, and smart categorization.',
+    title: 'Smart Features',
+    description: 'Reactions, swipe replies, smart suggestions, and AI auto-organization.',
     icon: <Zap className="w-8 h-8 text-yellow-400" />
   },
   {
     id: 'cloud',
-    title: 'Cloud Sync',
-    description: 'Optional encrypted multi-device sync powered by Supabase. Access from anywhere.',
+    title: 'Optional Cloud',
+    description: 'Choose to enable encrypted multi-device sync. Your data, your rules.',
     icon: <Cloud className="w-8 h-8 text-purple-400" />
   }
 ];

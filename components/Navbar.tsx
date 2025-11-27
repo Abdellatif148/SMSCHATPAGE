@@ -31,10 +31,10 @@ export const Navbar: React.FC = () => {
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-2 cursor-pointer group" onClick={() => scrollToSection('hero')}>
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-blue to-blue-700 flex items-center justify-center shadow-lg shadow-brand-blue/20 group-hover:shadow-brand-blue/40 transition-all">
+          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-electric to-blue-700 flex items-center justify-center shadow-lg shadow-brand-electric/20 group-hover:shadow-brand-electric/40 transition-all">
             <MessageCircle className="w-6 h-6 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight text-white">SMSChat</span>
+          <span className="text-xl font-bold tracking-tight text-white">S. Chat</span>
         </div>
 
         {/* Desktop Menu */}

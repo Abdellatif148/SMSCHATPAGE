@@ -47,7 +47,7 @@ export const Timeline: React.FC = () => {
             
             {/* Animated drawing line */}
             <div 
-              className={`h-full bg-gradient-to-r from-transparent via-brand-blue to-transparent absolute top-0 left-0 transition-all duration-[1500ms] ease-out`}
+              className={`h-full bg-gradient-to-r from-transparent via-brand-electric to-transparent absolute top-0 left-0 transition-all duration-[1500ms] ease-out`}
               style={{
                 width: isVisible ? '100%' : '0%',
                 opacity: isVisible ? 1 : 0
@@ -66,7 +66,7 @@ export const Timeline: React.FC = () => {
                   transitionDelay: `${index * 200 + 300}ms`
                 }}
               >
-                <div className={`w-16 h-16 rounded-2xl glass-panel flex items-center justify-center text-brand-blue mb-4 transition-all duration-300 bg-brand-black border border-white/10 relative z-10 ${isVisible ? 'animate-pulse-glow' : ''}`}>
+                <div className={`w-16 h-16 rounded-2xl glass-panel flex items-center justify-center text-brand-electric mb-4 transition-all duration-300 bg-brand-black border border-white/10 relative z-10 ${isVisible ? 'animate-pulse-glow' : ''}`}>
                   {step.icon}
                 </div>
                 <h3 className="font-semibold text-white mb-1">{step.title}</h3>

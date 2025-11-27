@@ -10,20 +10,20 @@ export const Hero: React.FC = () => {
         
         {/* Left Side: Text */}
         <div className="z-10 order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left">
-          <div className="inline-block px-4 py-1.5 rounded-full border border-brand-blue/30 bg-brand-blue/10 backdrop-blur-sm mb-6">
-            <span className="text-brand-blue text-xs font-bold tracking-wider uppercase">v2.0 Now Available</span>
+          <div className="inline-block px-4 py-1.5 rounded-full border border-brand-electric/30 bg-brand-electric/10 backdrop-blur-sm mb-6">
+            <span className="text-brand-electric text-xs font-bold tracking-wider uppercase">v2.1 Now Available</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-6">
-            SMSChat <br />
+            S. Chat <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-white/50">
-              Simple. Secure. Modern.
+              Simple. Fast. Private.
             </span>
           </h1>
           
           <p className="text-lg md:text-xl text-white/60 mb-8 max-w-lg leading-relaxed">
-            A beautifully designed SMS experience with cloud sync made optional. 
-            Privacy-first messaging for the modern web.
+            A modern, private, minimal SMS app with optional cloud sync. 
+            Enjoy clean conversations with WhatsApp-level polish.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -58,10 +58,10 @@ export const Hero: React.FC = () => {
               
               {/* App UI Header */}
               <div className="mt-4 px-4 pb-4 border-b border-white/5">
-                <h2 className="text-2xl font-bold text-white">Messages</h2>
+                <h2 className="text-2xl font-bold text-white">S. Chat</h2>
                 <div className="flex gap-2 mt-4 overflow-x-auto pb-2 scrollbar-hide">
                     {[1, 2, 3, 4].map((i) => (
-                         <div key={i} className="w-14 h-14 rounded-full bg-zinc-800 flex-shrink-0 border-2 border-brand-blue/50"></div>
+                         <div key={i} className="w-14 h-14 rounded-full bg-zinc-800 flex-shrink-0 border-2 border-brand-electric/50"></div>
                     ))}
                 </div>
               </div>
@@ -87,7 +87,7 @@ export const Hero: React.FC = () => {
 
                {/* Bottom Nav */}
                <div className="h-16 border-t border-white/5 bg-white/5 backdrop-blur-md flex justify-around items-center">
-                    <div className="w-6 h-6 bg-brand-blue rounded-full"></div>
+                    <div className="w-6 h-6 bg-brand-electric rounded-full"></div>
                     <div className="w-6 h-6 bg-white/20 rounded-full"></div>
                     <div className="w-6 h-6 bg-white/20 rounded-full"></div>
                </div>
@@ -98,7 +98,7 @@ export const Hero: React.FC = () => {
           </div>
 
           {/* Glow Behind Phone */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[80%] bg-brand-blue/20 blur-[80px] -z-10"></div>
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[80%] bg-brand-electric/20 blur-[80px] -z-10"></div>
         </div>
       </div>
     </Section>

@@ -8,14 +8,14 @@ export const Footer: React.FC = () => {
       
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-brand-blue/20 flex items-center justify-center">
-                <MessageCircle className="w-4 h-4 text-brand-blue" />
+            <div className="w-8 h-8 rounded-lg bg-brand-electric/20 flex items-center justify-center">
+                <MessageCircle className="w-4 h-4 text-brand-electric" />
             </div>
-            <span className="font-bold text-white tracking-tight">SMSChat</span>
+            <span className="font-bold text-white tracking-tight">S. Chat</span>
         </div>
 
         <div className="text-white/40 text-sm">
-            © 2025 SMSChat. Crafted with modern design.
+            © 2025 S. Chat. Simple. Fast. Private.
         </div>
 
         <div className="flex gap-6 text-sm">

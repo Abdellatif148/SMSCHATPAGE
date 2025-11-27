@@ -4,10 +4,10 @@ export const Background: React.FC = () => {
   return (
     <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
       {/* Top Left Blue Glow */}
-      <div className="absolute top-[-20%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-brand-blue/10 blur-[120px] animate-pulse-glow" />
+      <div className="absolute top-[-20%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-brand-electric/10 blur-[120px] animate-pulse-glow" />
       
       {/* Bottom Right Blue Glow */}
-      <div className="absolute bottom-[-20%] right-[-10%] w-[40vw] h-[40vw] rounded-full bg-brand-blue/5 blur-[100px] animate-pulse-glow" style={{ animationDelay: '2s' }} />
+      <div className="absolute bottom-[-20%] right-[-10%] w-[40vw] h-[40vw] rounded-full bg-brand-electric/5 blur-[100px] animate-pulse-glow" style={{ animationDelay: '2s' }} />
       
       {/* Center Haze */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vw] rounded-full bg-white/2 blur-[150px]" />
